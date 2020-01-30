@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
     res.send('Docker App');
 });
 
-app.listen(4000, () => {
-    console.log('App listening on port 4000!');
+app.listen(80, () => {
+    console.log('App listening on port 80!');
 });
